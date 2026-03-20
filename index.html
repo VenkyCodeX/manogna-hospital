@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manogna Hospital – Quality Healthcare You Can Trust</title>
+  <meta name="description" content="Manogna Hospital in Abdullahpurmet, Hyderabad offers quality healthcare including General Medicine, Emergency Care, Maternity, and Diagnostics. Book your appointment today." />
+  <meta name="keywords" content="Manogna Hospital, hospital Hyderabad, Abdullahpurmet hospital, emergency care, general medicine, maternity care" />
+  <meta name="author" content="Manogna Hospital" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== SPLASH SCREEN ===== -->
+  <div class="splash" id="splash">
+    <div class="splash-bg"></div>
+    <div class="splash-content">
+      <div class="splash-logo">
+        <img src="assets/Logo.jpeg" alt="Manogna Hospital" />
+      </div>
+      <h1 class="splash-title">Manogna <span>Hospital</span></h1>
+      <p class="splash-tagline">Quality Healthcare You Can Trust</p>
+      <div class="splash-bar"><div class="splash-bar-fill" id="splashBar"></div></div>
+      <p class="splash-loading" id="splashText">Loading...</p>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <img src="assets/Logo.jpeg" alt="Manogna Hospital Logo" class="logo-img" />
+        <span>Manogna <strong>Hospital</strong></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#appointment">Appointment</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+919666911192" class="btn btn-emergency">
+        <i class="fas fa-phone-alt"></i> Emergency
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/bg.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Quality Healthcare<br /><span>You Can Trust</span></h1>
+      <div class="hero-btns">
+        <a href="#appointment" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book Appointment</a>
+        <a href="tel:+919666911192" class="btn btn-outline"><i class="fas fa-phone-alt"></i> Call Now</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>5000+</strong><span>Patients Served</span></div>
+        <div class="stat"><strong>15+</strong><span>Specialist Doctors</span></div>
+        <div class="stat"><strong>24/7</strong><span>Emergency Care</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ===== FEATURES STRIP ===== -->
+  <section class="features-strip">
+    <div class="container features-grid">
+      <div class="feature-item">
+        <i class="fas fa-ambulance"></i>
+        <div><strong>24/7 Emergency</strong><span>Always available</span></div>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-user-md"></i>
+        <div><strong>Expert Doctors</strong><span>Highly experienced</span></div>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-microscope"></i>
+        <div><strong>Modern Equipment</strong><span>Latest technology</span></div>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-heart"></i>
+        <div><strong>Patient-Centered</strong><span>Compassionate care</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-img">
+        <div class="about-img-box">
+          <i class="fas fa-hospital fa-6x"></i>
+        </div>
+        <div class="about-badge"><i class="fas fa-award"></i> Trusted by Thousands</div>
+      </div>
+      <div class="about-text">
+        <span class="section-tag">About Us</span>
+        <h2>Committed to Your Health &amp; Well-being</h2>
+        <p>Manogna Hospital is a leading healthcare facility located in Abdullahpurmet, Hyderabad. We are dedicated to providing comprehensive, compassionate, and affordable medical care to every patient who walks through our doors.</p>
+        <p>Our team of experienced doctors, nurses, and support staff work tirelessly to ensure the highest standards of patient care. Equipped with modern diagnostic tools and treatment facilities, we are prepared to handle everything from routine check-ups to complex medical emergencies.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle"></i> Experienced and qualified medical professionals</li>
+          <li><i class="fas fa-check-circle"></i> State-of-the-art diagnostic and treatment facilities</li>
+          <li><i class="fas fa-check-circle"></i> Patient-first approach in every decision</li>
+          <li><i class="fas fa-check-circle"></i> Affordable healthcare for all</li>
+        </ul>
+        <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section bg-light" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2>Comprehensive Medical Services</h2>
+        <p>We offer a wide range of healthcare services to meet all your medical needs under one roof.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-stethoscope"></i></div>
+          <h3>General Medicine</h3>
+          <p>Diagnosis and treatment of common illnesses, chronic conditions, and preventive healthcare for all age groups.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-ambulance"></i></div>
+          <h3>Emergency Services</h3>
+          <p>Round-the-clock emergency care with rapid response teams equipped to handle all critical medical situations.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-baby"></i></div>
+          <h3>Maternity Care</h3>
+          <p>Complete prenatal, delivery, and postnatal care in a safe and supportive environment for mother and child.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-flask"></i></div>
+          <h3>Diagnostics &amp; Lab</h3>
+          <p>Advanced diagnostic imaging, pathology, and laboratory services for accurate and timely results.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+          <h3>Cardiology</h3>
+          <p>Specialized heart care including ECG, echocardiography, and management of cardiovascular conditions.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-bone"></i></div>
+          <h3>Orthopedics</h3>
+          <p>Treatment of bone, joint, and muscle disorders including fractures, arthritis, and sports injuries.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-child"></i></div>
+          <h3>Pediatrics</h3>
+          <p>Dedicated healthcare for infants, children, and adolescents with specialized pediatric doctors.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-eye"></i></div>
+          <h3>Ophthalmology</h3>
+          <p>Comprehensive eye care services including vision testing, treatment of eye diseases, and minor surgeries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOCTORS ===== -->
+  <section class="doctors section" id="doctors">
+    <div class="doctors-bg-glow"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-user-md"></i> Our Doctors</span>
+        <h2>Our Doctors <span class="title-highlight">24/7 Services</span></h2>
+        <p>Expert specialists available around the clock, committed to delivering world-class care to every patient.</p>
+      </div>
+      <div class="doctors-grid">
+
+        <div class="doctor-card magic-card">
+          <div class="magic-card-glow"></div>
+          <div class="doctor-img-wrap">
+            <img src="assets/swathi.jpeg" alt="Dr. Swathi Reddy" class="doctor-photo" />
+            <div class="doctor-badge doctor-badge-gold"><i class="fas fa-star"></i> Managing Director</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Swathi Reddy .B</h3>
+            <span class="specialization">Anaesthesia &amp; Critical Care</span>
+            <p class="doctor-qual"><i class="fas fa-graduation-cap"></i> M.B.B.S, MD – Anaesthesia</p>
+            <p class="doctor-qual"><i class="fas fa-hospital"></i> Osmania Hospital</p>
+            <p class="doctor-qual"><i class="fas fa-crown"></i> Managing Director</p>
+          </div>
+        </div>
+
+        <div class="doctor-card magic-card">
+          <div class="magic-card-glow"></div>
+          <div class="doctor-img-wrap">
+            <img src="assets/prashanth.jpeg" alt="Dr. Prashanth Kumar Goud" class="doctor-photo" />
+            <div class="doctor-badge"><i class="fas fa-circle-check"></i> Available 24/7</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Prashanth Kumar Goud .S</h3>
+            <span class="specialization">Internal Medicine &amp; Diabetologist</span>
+            <p class="doctor-qual"><i class="fas fa-graduation-cap"></i> M.B.B.S, DNB (Internal Medicine)</p>
+            <p class="doctor-qual"><i class="fas fa-hospital"></i> Yashoda Hospital</p>
+            <p class="doctor-qual"><i class="fas fa-stethoscope"></i> Consultant Internal Medicine</p>
+          </div>
+        </div>
+
+        <div class="doctor-card magic-card">
+          <div class="magic-card-glow"></div>
+          <div class="doctor-img-wrap">
+            <img src="assets/chandana.jpeg" alt="Dr. Chandana" class="doctor-photo" />
+            <div class="doctor-badge"><i class="fas fa-circle-check"></i> Available 24/7</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Chandana</h3>
+            <span class="specialization">Obstetrics &amp; Gynaecology</span>
+            <p class="doctor-qual"><i class="fas fa-graduation-cap"></i> M.B.B.S, M.S.</p>
+            <p class="doctor-qual"><i class="fas fa-stethoscope"></i> Obstetrics and Gynaecology</p>
+          </div>
+        </div>
+
+        <div class="doctor-card magic-card">
+          <div class="magic-card-glow"></div>
+          <div class="doctor-img-wrap">
+            <img src="assets/srinivas.jpeg" alt="Dr. Srinivas" class="doctor-photo" />
+            <div class="doctor-badge"><i class="fas fa-circle-check"></i> Available 24/7</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Srinivas</h3>
+            <span class="specialization">Orthopaedic Surgeon</span>
+            <p class="doctor-qual"><i class="fas fa-graduation-cap"></i> M.B.B.S, DNB, Ortho</p>
+            <p class="doctor-qual"><i class="fas fa-stethoscope"></i> Joint Replacement, Knee &amp; Shoulder</p>
+            <p class="doctor-qual"><i class="fas fa-syringe"></i> Arthroscopic Surgeries</p>
+          </div>
+        </div>
+
+        <div class="doctor-card magic-card">
+          <div class="magic-card-glow"></div>
+          <div class="doctor-img-wrap">
+            <img src="assets/harish.jpeg" alt="Dr. Harish Goud Katta" class="doctor-photo" />
+            <div class="doctor-badge"><i class="fas fa-circle-check"></i> Available 24/7</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Harish Goud Katta</h3>
+            <span class="specialization">General Surgeon</span>
+            <p class="doctor-qual"><i class="fas fa-graduation-cap"></i> M.B.B.S, M.S. (General Surgery)</p>
+            <p class="doctor-qual"><i class="fas fa-hospital"></i> Gandhi Hospital</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APPOINTMENT ===== -->
+  <section class="appointment section bg-light" id="appointment">
+    <div class="container appt-grid">
+      <div class="appt-info">
+        <span class="section-tag">Book Appointment</span>
+        <h2>Schedule Your Visit Today</h2>
+        <p>Fill in the form or reach us directly via WhatsApp. Our team will confirm your appointment promptly.</p>
+        <div class="appt-contact">
+          <a href="tel:+919666911192" class="appt-link"><i class="fas fa-phone-alt"></i> +91 96669 11192</a>
+          <a href="https://wa.me/919666911192?text=I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener noreferrer" class="appt-link whatsapp-link"><i class="fab fa-whatsapp"></i> Book via WhatsApp</a>
+        </div>
+        <div class="appt-hours">
+          <h4><i class="fas fa-clock"></i> Working Hours</h4>
+          <p>Mon – Sat: 8:00 AM – 9:00 PM</p>
+          <p>Sunday: 9:00 AM – 2:00 PM</p>
+          <p class="emergency-note"><i class="fas fa-ambulance"></i> Emergency: 24/7 Available</p>
+        </div>
+      </div>
+      <form class="appt-form" id="appointmentForm">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+        </div>
+        <div class="form-group">
+          <label for="date">Preferred Date *</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+        <div class="form-group">
+          <label for="department">Department</label>
+          <select id="department" name="department">
+            <option value="">Select Department</option>
+            <option>General Medicine</option>
+            <option>Emergency Services</option>
+            <option>Maternity Care</option>
+            <option>Diagnostics & Lab</option>
+            <option>Cardiology</option>
+            <option>Orthopedics</option>
+            <option>Pediatrics</option>
+            <option>Ophthalmology</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="3" placeholder="Describe your concern (optional)"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width"><i class="fas fa-calendar-check"></i> Confirm Appointment</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2>What Our Patients Say</h2>
+        <p>Real experiences from patients who trusted us with their health.</p>
+      </div>
+      <div class="testimonials-grid testimonials-single">
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"The doctors and staff at Manogna Hospital are incredibly caring. I received excellent treatment and felt well looked after throughout my stay."</p>
+          <div class="testimonial-author"><div class="author-avatar">R</div><div><strong>Ramesh Naidu</strong><span>Patient – General Medicine</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section bg-light" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact Us</span>
+        <h2>Get In Touch</h2>
+        <p>We're here to help. Reach out to us anytime.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Address</h4>
+              <p>Near Bus Stand, Abdullahpurmet,<br />Hyderabad, Telangana 501513, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+919666911192">+91 96669 11192</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/919666911192?text=Hello%2C%20I%20need%20assistance" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Hours</h4>
+              <p>Mon–Sat: 8AM–9PM | Sun: 9AM–2PM<br /><strong>Emergency: 24/7</strong></p>
+            </div>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.0!2d78.6833!3d17.2167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDEzJzAwLjAiTiA3OMKwNDEnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+              width="100%" height="220" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy"
+              title="Manogna Hospital Location">
+            </iframe>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="cname">Your Name *</label>
+            <input type="text" id="cname" placeholder="Full name" required />
+          </div>
+          <div class="form-group">
+            <label for="cemail">Email Address</label>
+            <input type="email" id="cemail" placeholder="your@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="cphone">Phone Number *</label>
+            <input type="tel" id="cphone" placeholder="+91 XXXXX XXXXX" required />
+          </div>
+          <div class="form-group">
+            <label for="csubject">Subject</label>
+            <input type="text" id="csubject" placeholder="How can we help?" />
+          </div>
+          <div class="form-group">
+            <label for="cmessage">Message *</label>
+            <textarea id="cmessage" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo-white">
+          <img src="assets/Logo.jpeg" alt="Manogna Hospital Logo" class="logo-img" />
+          <span>Manogna <strong>Hospital</strong></span>
+        </a>
+        <p>Providing quality, compassionate healthcare to the community of Abdullahpurmet and surrounding areas.</p>
+        <div class="emergency-box">
+          <i class="fas fa-ambulance"></i>
+          <div><span>Emergency Helpline</span><a href="tel:+919666911192">+91 96669 11192</a></div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+          <li><a href="#doctors"><i class="fas fa-chevron-right"></i> Doctors</a></li>
+          <li><a href="#appointment"><i class="fas fa-chevron-right"></i> Appointment</a></li>
+          <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> General Medicine</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Emergency Care</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Maternity Care</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Diagnostics</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Cardiology</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Pediatrics</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Near Bus Stand, Abdullahpurmet, Hyderabad, Telangana 501513</p>
+        <p><i class="fas fa-phone-alt"></i> <a href="tel:+919666911192">+91 96669 11192</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919666911192" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></p>
+        <p><i class="fas fa-clock"></i> Mon–Sat: 8AM–9PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Manogna Hospital. All rights reserved.</p>
+        <p>Designed with <i class="fas fa-heart" style="color:#e74c3c"></i> for better healthcare</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING BUTTONS ===== -->
+  <a href="https://wa.me/919666911192?text=Hello%2C%20I%20need%20assistance" target="_blank" rel="noopener noreferrer" class="float-whatsapp" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+919666911192" class="float-call" title="Call Emergency">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+
+  <!-- ===== SUCCESS MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+      <h3>Request Submitted!</h3>
+      <p>Thank you! We'll contact you shortly to confirm your appointment.</p>
+      <button class="btn btn-primary" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
