@@ -657,6 +657,8 @@ img { max-width: 100%; }
 }
 .footer-bottom .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
 .footer-bottom p { font-size: 0.82rem; color: rgba(255,255,255,0.5); }
+.footer-dev { color: rgba(255,255,255,0.4) !important; }
+.footer-dev strong { color: var(--accent); }
 
 /* ===== FLOATING BUTTONS ===== */
 .float-whatsapp, .float-call {
